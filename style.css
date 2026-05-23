@@ -165,4 +165,17 @@
  /* navbar end  */
   
  /* Hero Section start  */
+ /* @font-face {
+    font-family:"fonts/OpenSans-VariableFont_wdth\,wght.ttf" ;
+    src: url(fonts/'Poppins', sans-serif); */
+ 
+ .head2{
+    padding: 100px;
+    text-align: center;
+    font-size: 100px;
+  color:  #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+   text-transform: uppercase;
+ }
  
