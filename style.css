@@ -38,6 +38,8 @@
   letter-spacing: 1px;
   text-decoration: none;
   position: relative;
+   z-index: 1;
+  text-shadow: 0px 0px 9px #ffffff;
  }
  .a1::after{
    content: "";
@@ -61,12 +63,14 @@
   }
  .a2{
      color: white;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-right: 20px;
+     margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
     font-family:"fonts/OpenSans-VariableFont_wdth\,wght.ttf" ;
     text-decoration: none;
     position: relative;
+     z-index: 1;
+  text-shadow: 0px 0px 9px #ffffff;
  }
  .a2::after{
    content: "";
@@ -83,6 +87,7 @@
  }
  .a2:hover{
     color: #2f80ed;
+    text-shadow: 0px 0px 8px #f6f5f5;
  }
   @font-face {
     font-family:"fonts/OpenSans-VariableFont_wdth\,wght.ttf" ;
@@ -97,6 +102,8 @@
   font-family:"fonts/OpenSans-VariableFont_wdth\,wght.ttf" ;
   text-decoration: none;
   position: relative;
+  z-index: 1;
+  text-shadow: 0px 0px 9px #ffffff;
  }
  .a3:after{
  content: "";
@@ -112,7 +119,7 @@
     width: 100%;
  }
  .a3:hover{
-    color: #2f80ed;
+    color: #1767d1;
  }
   @font-face {
     font-family:"fonts/OpenSans-VariableFont_wdth\,wght.ttf" ;
@@ -126,6 +133,8 @@
   font-family: "fonts/OpenSans-VariableFont_wdth\,wght.ttf";
   text-decoration: none;
   position: relative;
+  z-index: 1;
+  text-shadow: 0px 0px 9px #f6f5f5;
  }
  .a4::after{
      content: "";
@@ -157,6 +166,8 @@ color: aliceblue;
   font-family: "fonts/OpenSans-VariableFont_wdth\,wght.ttf";
   text-decoration: none;
   font-weight: bold;
+   z-index: 1;
+  text-shadow: 0px 0px 3px #ffffff;
  }
  .head1:hover{
     color:#448dec;
@@ -207,8 +218,8 @@ color: aliceblue;
     src: url(fonts/Poppins-Black.ttf);
  }
 .btn{
-    margin-left: 300px;
-    margin-top: 40px;
+    margin-left: 320px;
+    margin-top: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 30px;
@@ -227,4 +238,4 @@ color: aliceblue;
     color:#448dec;
     box-shadow: 0px 0px 8px white;
 }
- 
+ /* Hero section end  */
