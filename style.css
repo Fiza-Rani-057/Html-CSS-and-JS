@@ -40,6 +40,7 @@
   position: relative;
    z-index: 1;
   text-shadow: 0px 0px 9px #ffffff;
+  display: inline-block;
  }
  .a1::after{
    content: "";
@@ -158,15 +159,15 @@
     src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
  }
  .head1{
-color: aliceblue;
+  color: aliceblue;
   margin-top: 15px;
   margin-bottom: 20px;
   margin-right: 230px;
-  margin-left: 0;
+  /* margin-left: 0; */
   font-family: "fonts/OpenSans-VariableFont_wdth\,wght.ttf";
   text-decoration: none;
   font-weight: bold;
-   z-index: 1;
+   /* z-index: 1; */
   text-shadow: 0px 0px 3px #ffffff;
  }
  .head1:hover{
@@ -237,5 +238,6 @@ color: aliceblue;
 .btn:hover{
     color:#448dec;
     box-shadow: 0px 0px 8px white;
+    cursor: pointer;
 }
  /* Hero section end  */
