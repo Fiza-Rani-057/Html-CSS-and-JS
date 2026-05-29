@@ -254,7 +254,7 @@
  }
  #search{
    color:  #c9bdd6;
-   text-shadow:0px 0px 8px aliceblue;
+   text-shadow: 0px 0px 8px aliceblue;
  }
  #search:hover{
     cursor: pointer;
